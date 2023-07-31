@@ -60,7 +60,7 @@ function CreateArea(props) {
         />
         <Zoom in={isExpanded}>
             <div className="justify-end flex">
-            <SiAddthis onClick={submitNote} className=" text-[40px] rounded-full dark:text-gray-600 text-[#e7a312cc]" />
+            <SiAddthis onClick={submitNote} className="cursor-pointer hover:text-[#da7e15cc] dark:hover:text-black text-[40px] rounded-full dark:text-gray-600 text-[#e7a312cc]" />
             </div>
           
         </Zoom>
