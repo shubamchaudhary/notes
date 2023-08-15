@@ -11,7 +11,7 @@ function Note(props) {
 
   return (
     <div className="ml-[10%] mr-[10%] transform transition duration-500 hover:scale-110">
-    <div className=" hover:h-8 w-[100px] ">
+    <div className="inline hover:h-8 w-[100px] ">
     <Draggable >
       
     <div className="note  dark:bg-gray-700 cursor-pointer text-center shadow-md  hover:shadow-lg ">
