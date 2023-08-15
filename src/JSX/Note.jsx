@@ -10,7 +10,7 @@ function Note(props) {
   }
 
   return (
-    <div className="transform transition duration-500 hover:scale-110">
+    <div className="ml-[10%] mr-[10%] transform transition duration-500 hover:scale-110">
     <div className=" hover:h-8 w-[100px] ">
     <Draggable >
       
