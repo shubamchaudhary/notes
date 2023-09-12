@@ -5,7 +5,7 @@ import Zoom from "@material-ui/core/Zoom";
 import {SiAddthis} from 'react-icons/si'
 
 function CreateArea(props) {
-  const [isExpanded, setExpanded] = useState(false);
+  const [isExpanded, setExpanded] = useState(true);
 
   const [note, setNote] = useState({
     title: "",
@@ -30,7 +30,7 @@ function CreateArea(props) {
       content: ""
     });
     event.preventDefault();
-    setExpanded(false)
+    setExpanded(true)
   }
 
   function expand() {
